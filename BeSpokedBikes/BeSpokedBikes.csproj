@@ -187,6 +187,7 @@
     <Content Include="Views\Home\CreateSale.cshtml" />
     <Content Include="Views\Home\ViewSales.cshtml" />
     <Content Include="Views\Home\ViewCommissionReport.cshtml" />
+    <Content Include="TestDatePackage.dtsx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataLibrary\DataLibrary.csproj">
