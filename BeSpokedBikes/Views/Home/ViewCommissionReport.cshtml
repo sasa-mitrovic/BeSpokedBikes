@@ -1,0 +1,61 @@
+﻿@model IEnumerable<BeSpokedBikes.Models.CommissionReportModel>
+
+@{
+    ViewBag.Title = "View Commission Report";
+}
+
+<h2>View Commission Report : Q2</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalePrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CommissionPercentage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Commission)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalesPersonFName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalesPersonLName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SaleDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalePrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommissionPercentage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Commission)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesPersonFName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesPersonLName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SaleDate)
+        </td>
+    </tr>
+}
+
+</table>
