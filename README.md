@@ -14,7 +14,7 @@ Right click on BeSpokedDB and click Publish.
 From here click Load Profile and open the folder "PublishProfiles" and select the BeSpokedDB.publish.xml 
 after selecting, you should have the option to Publish. Go ahead and publish it from there. In the console at the bottom, we should have all green check marks and good to go.
 
-Now that the Database is publish to the localdb, we can populate the data.
+Now that the Database is published to the localdb, we can populate the data.
 
 Navigate to the "TestDatePackage.dtsx" package and run that with SSIS (Execute Package Utility)
 
